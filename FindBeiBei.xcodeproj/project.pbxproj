@@ -12,6 +12,9 @@
 		222F0C19196D2E50007119B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222F0C17196D2E50007119B4 /* Main.storyboard */; };
 		222F0C1B196D2E50007119B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222F0C1A196D2E50007119B4 /* Images.xcassets */; };
 		222F0C27196D2E50007119B4 /* FindBeiBeiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F0C26196D2E50007119B4 /* FindBeiBeiTests.swift */; };
+		223E50A0196E1A940082C5DF /* SketchColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E509F196E1A940082C5DF /* SketchColors.swift */; };
+		223E50A3196E20E00082C5DF /* beibei.png in Resources */ = {isa = PBXBuildFile; fileRef = 223E50A1196E20E00082C5DF /* beibei.png */; };
+		223E50A4196E20E00082C5DF /* beibei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223E50A2196E20E00082C5DF /* beibei@2x.png */; };
 		785668B02DFD4499B407342F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A64BF7D51A40269DDD66DC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		222F0C0E196D2E50007119B4 /* FindBeiBei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindBeiBei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222F0C0E196D2E50007119B4 /* Beicon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beicon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		222F0C12196D2E50007119B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222F0C13196D2E50007119B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		222F0C15196D2E50007119B4 /* DogLocatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogLocatorController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		222F0C25196D2E50007119B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222F0C26196D2E50007119B4 /* FindBeiBeiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBeiBeiTests.swift; sourceTree = "<group>"; };
 		223E509C196D44560082C5DF /* FindBeiBei-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindBeiBei-Bridging-Header.h"; sourceTree = "<group>"; };
+		223E509F196E1A940082C5DF /* SketchColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchColors.swift; sourceTree = "<group>"; };
+		223E50A1196E20E00082C5DF /* beibei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beibei.png; sourceTree = "<group>"; };
+		223E50A2196E20E00082C5DF /* beibei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beibei@2x.png"; sourceTree = "<group>"; };
 		59A64BF7D51A40269DDD66DC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AC0E5E3D8F4F318C96A8EE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +79,7 @@
 		222F0C0F196D2E50007119B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				222F0C0E196D2E50007119B4 /* FindBeiBei.app */,
+				222F0C0E196D2E50007119B4 /* Beicon.app */,
 				222F0C20196D2E50007119B4 /* FindBeiBeiTests.xctest */,
 			);
 			name = Products;
@@ -84,8 +90,11 @@
 			children = (
 				222F0C13196D2E50007119B4 /* AppDelegate.swift */,
 				222F0C15196D2E50007119B4 /* DogLocatorController.swift */,
+				223E509F196E1A940082C5DF /* SketchColors.swift */,
 				223E509C196D44560082C5DF /* FindBeiBei-Bridging-Header.h */,
 				222F0C17196D2E50007119B4 /* Main.storyboard */,
+				223E50A1196E20E00082C5DF /* beibei.png */,
+				223E50A2196E20E00082C5DF /* beibei@2x.png */,
 				222F0C1A196D2E50007119B4 /* Images.xcassets */,
 				222F0C11196D2E50007119B4 /* Supporting Files */,
 			);
@@ -144,7 +153,7 @@
 			);
 			name = FindBeiBei;
 			productName = FindBeiBei;
-			productReference = 222F0C0E196D2E50007119B4 /* FindBeiBei.app */;
+			productReference = 222F0C0E196D2E50007119B4 /* Beicon.app */;
 			productType = "com.apple.product-type.application";
 		};
 		222F0C1F196D2E50007119B4 /* FindBeiBeiTests */ = {
@@ -176,6 +185,7 @@
 				TargetAttributes = {
 					222F0C0D196D2E50007119B4 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = C9E7J47GQ9;
 					};
 					222F0C1F196D2E50007119B4 = {
 						CreatedOnToolsVersion = 6.0;
@@ -208,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				222F0C19196D2E50007119B4 /* Main.storyboard in Resources */,
+				223E50A3196E20E00082C5DF /* beibei.png in Resources */,
+				223E50A4196E20E00082C5DF /* beibei@2x.png in Resources */,
 				222F0C1B196D2E50007119B4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +273,7 @@
 			files = (
 				222F0C16196D2E50007119B4 /* DogLocatorController.swift in Sources */,
 				222F0C14196D2E50007119B4 /* AppDelegate.swift in Sources */,
+				223E50A0196E1A940082C5DF /* SketchColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
